@@ -1,6 +1,8 @@
-import 'package:flutter_whirlpool/screens/main/washing_machine/drum/physic/drum_physic.dart';
-import 'package:flutter_whirlpool/view_models/service_locator.dart';
-import 'package:flutter_whirlpool/view_models/settings_view_model.dart';
+
+
+import '../../../view_models/service_locator.dart';
+import '../../../view_models/settings_view_model.dart';
+import 'drum/physic/drum_physic.dart';
 
 typedef PaintCallback = Function();
 

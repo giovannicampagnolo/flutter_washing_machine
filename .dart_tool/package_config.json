@@ -170,13 +170,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "flutter_whirlpool",
+      "name": "flutter_washing_machine",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-20T16:35:44.413802Z",
+  "generated": "2023-02-22T16:08:11.901920Z",
   "generator": "pub",
   "generatorVersion": "2.18.5"
 }

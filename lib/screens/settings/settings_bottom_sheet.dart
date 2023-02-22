@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/widgets/neumorphic_icon_button.dart';
-import 'package:flutter_whirlpool/view_models/settings_view_model.dart';
-import 'package:flutter_whirlpool/view_models/theme_view_model.dart';
 import 'package:provider/provider.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/widgets/neumorphic_icon_button.dart';
+import '../../view_models/settings_view_model.dart';
+import '../../view_models/theme_view_model.dart';
 
 class SettingsBottomSheet extends StatefulWidget {
   const SettingsBottomSheet({super.key});

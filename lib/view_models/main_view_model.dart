@@ -3,10 +3,12 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_whirlpool/models/mode_item_model.dart';
-import 'package:flutter_whirlpool/screens/main/washing_machine/washing_machine_controller.dart';
-import 'package:flutter_whirlpool/view_models/service_locator.dart';
-import 'package:flutter_whirlpool/view_models/timer_view_model.dart';
+import 'package:flutter_washing_machine/view_models/service_locator.dart';
+import 'package:flutter_washing_machine/view_models/timer_view_model.dart';
+
+import '../models/mode_item_model.dart';
+import '../screens/main/washing_machine/washing_machine_controller.dart';
+
 
 enum ModeStatus {
   notStarted,

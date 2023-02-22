@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/screens/main/washing_machine/drum/washing_machine_drum.dart';
-import 'package:flutter_whirlpool/screens/main/washing_machine/washing_machine_controller.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/view_models/service_locator.dart';
+import 'package:flutter_washing_machine/screens/main/washing_machine/washing_machine_controller.dart';
+
+import '../../../shared/colors.dart';
+import '../../../view_models/service_locator.dart';
+import 'drum/washing_machine_drum.dart';
 
 class WashingMachineCase extends StatefulWidget {
   const WashingMachineCase({

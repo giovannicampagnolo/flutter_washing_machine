@@ -1,17 +1,18 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/models/mode_item_model.dart';
-import 'package:flutter_whirlpool/screens/main/mode_tile.dart';
-import 'package:flutter_whirlpool/screens/main/top_bar.dart';
-import 'package:flutter_whirlpool/screens/main/washing_machine/washing_machine_case.dart';
-import 'package:flutter_whirlpool/screens/water_drawer/water_drawer.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/consts.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
-import 'package:flutter_whirlpool/view_models/main_view_model.dart';
-import 'package:flutter_whirlpool/view_models/theme_view_model.dart';
+import 'package:flutter_washing_machine/screens/main/top_bar.dart';
+import 'package:flutter_washing_machine/screens/main/washing_machine/washing_machine_case.dart';
 import 'package:provider/provider.dart';
+
+import '../../models/mode_item_model.dart';
+import '../../shared/colors.dart';
+import '../../shared/consts.dart';
+import '../../shared/widgets/neumorphic_icon_button.dart';
+import '../../view_models/main_view_model.dart';
+import '../../view_models/theme_view_model.dart';
+import '../water_drawer/water_drawer.dart';
+import 'mode_tile.dart';
 
 class MainScreen extends StatelessWidget {
   static const margin = EdgeInsets.only(
@@ -280,7 +281,6 @@ class _ModesList extends StatelessWidget {
                     itemCount: viewModel.nodes.length,
                     itemBuilder: (context, index) {
                       ModeItemModel item = viewModel.nodes[index];
-
                       return ModeTile(
                         pressed: viewModel.selectedMode == item,
                         indicatorColor: item.color,

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_whirlpool/view_models/service_locator.dart';
-import 'package:flutter_whirlpool/view_models/theme_view_model.dart';
+
+import '../view_models/service_locator.dart';
+import '../view_models/theme_view_model.dart';
 
 class CustomColors {
   static bool get isDarkMode => ServiceLocator.get<ThemeViewModel>().darkMode;

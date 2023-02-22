@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/screens/main/timer_panel.dart';
-import 'package:flutter_whirlpool/screens/settings/settings_bottom_sheet.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/consts.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
+import 'package:flutter_washing_machine/screens/main/timer_panel.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/consts.dart';
+import '../../shared/widgets/neumorphic_icon_button.dart';
+import '../settings/settings_bottom_sheet.dart';
 
 class TopBar extends StatelessWidget {
   const TopBar({Key? key}) : super(key: key);

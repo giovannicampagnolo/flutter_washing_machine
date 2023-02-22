@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_whirlpool/screens/main/main_screen.dart';
-import 'package:flutter_whirlpool/view_models/main_view_model.dart';
-import 'package:flutter_whirlpool/view_models/service_locator.dart';
-import 'package:flutter_whirlpool/view_models/settings_view_model.dart';
-import 'package:flutter_whirlpool/view_models/theme_view_model.dart';
-import 'package:flutter_whirlpool/view_models/timer_view_model.dart';
+import 'package:flutter_washing_machine/screens/main/main_screen.dart';
+import 'package:flutter_washing_machine/view_models/main_view_model.dart';
+import 'package:flutter_washing_machine/view_models/service_locator.dart';
+import 'package:flutter_washing_machine/view_models/settings_view_model.dart';
+import 'package:flutter_washing_machine/view_models/theme_view_model.dart';
+import 'package:flutter_washing_machine/view_models/timer_view_model.dart';
+
 import 'package:provider/provider.dart';
 
 void main() {

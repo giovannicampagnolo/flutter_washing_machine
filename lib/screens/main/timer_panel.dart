@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
-import 'package:flutter_whirlpool/view_models/timer_view_model.dart';
 import 'package:provider/provider.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/widgets/neumorphic_container.dart';
+import '../../view_models/timer_view_model.dart';
 
 class TimerPanel extends StatefulWidget {
   const TimerPanel({Key? key}) : super(key: key);

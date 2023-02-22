@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/consts.dart';
-import 'package:flutter_whirlpool/shared/decorators.dart';
+
+import '../colors.dart';
+import '../consts.dart';
+import '../decorators/inner_shadow_decorator.dart';
 
 class NeumorphicContainer extends StatelessWidget {
   const NeumorphicContainer({

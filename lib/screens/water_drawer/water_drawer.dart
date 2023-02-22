@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/screens/water_drawer/water_slider.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/consts.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
-import 'package:flutter_whirlpool/view_models/main_view_model.dart';
+import 'package:flutter_washing_machine/screens/water_drawer/water_slider.dart';
 import 'package:provider/provider.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/consts.dart';
+import '../../shared/widgets/neumorphic_icon_button.dart';
+import '../../view_models/main_view_model.dart';
 
 class WaterDrawer extends StatelessWidget {
   const WaterDrawer({Key? key}) : super(key: key);

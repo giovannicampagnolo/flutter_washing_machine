@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
+
+import 'neumorphic_container.dart';
 
 class NeumorphicButton extends StatefulWidget {
   const NeumorphicButton({

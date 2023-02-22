@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/consts.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/consts.dart';
+import '../../shared/widgets/neumorphic_button.dart';
 
 class ModeTile extends StatelessWidget {
   const ModeTile({

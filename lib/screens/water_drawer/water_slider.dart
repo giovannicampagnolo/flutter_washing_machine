@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_whirlpool/screens/water_drawer/wave_container.dart';
-import 'package:flutter_whirlpool/shared/colors.dart';
-import 'package:flutter_whirlpool/shared/decorators.dart';
-import 'package:flutter_whirlpool/shared/widgets.dart';
+import 'package:flutter_washing_machine/screens/water_drawer/wave_container.dart';
+
+import '../../shared/colors.dart';
+import '../../shared/decorators/inner_shadow_decorator.dart';
+import '../../shared/widgets/neumorphic_container.dart';
 
 typedef ValueChangeCallback = void Function(double value);
 
